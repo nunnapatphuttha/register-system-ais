@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mitr', sans-serif;
+}
+
+
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: #b2d233;
+}
+
+/* ------------------------index-page------------------------ */
+
+.wrapper-index input{
+    border: solid 3px #010101 ;
+    border-radius: 10px;
+}
+
+.wrapper-index h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.wrapper-index a{
+    font-size: 1rem;
+    color: #010101;
+    font-weight: 500;
+}
+
+.wrapper-index a:hover{
+    color: #b2d233;
+}
+
+.wrapper-index p{
+    font-size: 0.8rem;
+    color: gray; 
+    margin-top: 5px;
+}
+
+.wrapper-index h5{
+    font-size: 0.7rem;
+    height: 20px;
+}
+.wrapper-index button{
+    background-color: #010101;
+    color: #b2d233;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    width: 200px;
+    font-weight: 500;
+}
+
+.wrapper-index button:hover{
+    background-color: #b2d233;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    width: 200px;
+    font-weight: 500;
+    color: #010101;
+    transition: all 0.5s;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="file"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: #b2d233;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #b2d233;
+  outline: 0 none;
+}
+
+.form-phone{
+    border-radius: 1rem;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+/* ------------------------info-page------------------------ */
+
+.wrapper-info input{
+    border: solid 2px #010101 ;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: gainsboro;
+}
+
+
+.wrapper-info h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.wrapper-info a{
+    font-size: 1rem;
+    color: #010101;
+    font-weight: 500;
+}
+
+.wrapper-info a:hover{
+    color: #b2d233;
+}
+
+.wrapper-info p{
+    font-size: 0.8rem;
+    color: gray; 
+    margin-top: 5px;
+}
+
+.wrapper-info h5{
+    font-size: 0.7rem;
+    height: 20px;
+}
+.wrapper-info button{
+    background-color: #010101;
+    color: #b2d233;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    width: 150px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.wrapper-info button:hover{
+    background-color: #b2d233;
+    color: #010101;
+    transition: all 0.5s;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* ------------------------upload-page------------------------ */
+
+.wrapper-upload input{ 
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.wrapper-upload h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.wrapper-upload a{
+    font-size: 1rem;
+    color: #010101;
+    font-weight: 500;
+}
+
+.wrapper-upload a:hover{
+    color: #b2d233;
+}
+
+.wrapper-upload p{
+    font-size: 0.8rem;
+    color: gray; 
+    margin-top: 5px;
+}
+
+.wrapper-upload h5{
+    font-size: 0.7rem;
+    height: 20px;
+}
+.wrapper-upload button{
+    background-color: #010101;
+    color: #b2d233;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    width: 150px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.wrapper-upload button:hover{
+    background-color: #b2d233;
+    color: #010101;
+    transition: all 0.5s;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* ------------------------info-qr------------------------ */
+
+.wrapper-qr input{
+    border: solid 2px #010101 ;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: gainsboro;
+}
+
+
+.wrapper-qr h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.wrapper-qr a{
+    font-size: 1rem;
+    color: #010101;
+    font-weight: 500;
+}
+
+.wrapper-qr a:hover{
+    color: #b2d233;
+}
+
+.wrapper-qr p{
+    font-size: 0.8rem;
+    color: gray; 
+    margin-top: 5px;
+}
+
+.wrapper-qr h5{
+    font-size: 0.7rem;
+    height: 20px;
+}
+.wrapper-qr button{
+    background-color: #010101;
+    color: #b2d233;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    width: 150px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.wrapper-qr button:hover{
+    background-color: #b2d233;
+    color: #010101;
+    transition: all 0.5s;
+}
+
+/* ------------------------------------------------------------------- */
