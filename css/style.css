@@ -204,7 +204,7 @@ input[type="color"]:focus,
 
 /* ------------------------------------------------------------------- */
 
-/* ------------------------info-qr------------------------ */
+/* -------------------------qr------------------------ */
 
 .wrapper-qr input{
     border: solid 2px #010101 ;
@@ -251,6 +251,57 @@ input[type="color"]:focus,
 }
 
 .wrapper-qr button:hover{
+    background-color: #b2d233;
+    color: #010101;
+    transition: all 0.5s;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* ------------------------signup------------------------- */
+.wrapper-signup input{
+    border: solid 2px #010101 ;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.wrapper-signup h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.wrapper-signup a{
+    font-size: 1rem;
+    color: #010101;
+    font-weight: 500;
+}
+
+.wrapper-signup a:hover{
+    color: #b2d233;
+}
+
+.wrapper-signup p{
+    font-size: 0.8rem;
+    color: gray; 
+    margin-top: 5px;
+}
+
+.wrapper-signup h5{
+    font-size: 0.7rem;
+    height: 20px;
+}
+.wrapper-signup button{
+    background-color: #010101;
+    color: #b2d233;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    width: 150px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.wrapper-signup button:hover{
     background-color: #b2d233;
     color: #010101;
     transition: all 0.5s;
