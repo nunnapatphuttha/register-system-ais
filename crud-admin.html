@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Officer | Covid19 Certificate upload system</title>
+    <!-- css-bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css-style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <!-- modal add user -->
+    <div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Add User</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form action="">           
+                <div class="mb-3">
+                    <label for="" class="col-form-label">ชื่อ:</label>
+                    <input type="text" class="form-control" required id="">
+                
+                    <label for="" class="col-form-label">นามสกุล:</label>
+                    <input type="text" class="form-control" required id=""></input>
+                
+               
+                    <label for="" class="col-form-label">เบอร์โทรศัพท์:</label>
+                    <input type="tel" class="form-control" pattern="[0-9]{10}" required id="" ></input>
+               
+             
+                    <label for="" class="col-form-label">องค์กร:</label>
+                    <input type="text" class="form-control" required id="" ></input>
+               
+               
+                    <label for="formFile" class="form-label" style="font-size: 0.8rem;">อัพโหลดรูปภาพของท่าน </label>
+                    <input class="form-control col-6" type="file" id="formFile" aria-label="file example" required>
+                    <label for="formFile" class="form-label mt-3" style="font-size: 0.8rem;">อัพโหลดผลตรวจ ATK</label>
+                    <input class="form-control" type="file" id="formFile" aria-label="file example" required>
+                    <label for="formFile" class="form-label mt-3" style="font-size: 0.8rem;">อัพโหลดผลการฉีดวัคซีน</label>
+                    <input class="form-control" type="file" id="formFile" aria-label="file example" required>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn" style="background-color: #b2d233;">Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- admin section -->
+    <section class="wrapper-admin">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Admin CRUD System </h3>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end mb-3">
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#userModal"><i class="fa-solid fa-user-plus"></i> Add User</button>
+                </div>
+            
+
+            <table class="table table-dark">
+                <thead>
+                  <tr class="table-dark">
+                    <th scope="col">Fname</th>
+                    <th scope="col">Lname</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Workplace</th>
+                    <th scope="col">img_person</th>
+                    <th scope="col">img_atk</th>
+                    <th scope="col">img_vaccine</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                </tbody>
+              </table>
+            </div>
+        </div>
+
+        <div class="container mt-3">
+            <a href="">Logout</a>
+        </div>
+    </section>
+
+    <!-- JS-bootstrap -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
