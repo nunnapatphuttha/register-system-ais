@@ -37,7 +37,10 @@
                         </div>
                         <div class="col-12" style="padding:30px;">
                             <h4>SCAN RESULT</h4>
-                            <div id="result">Result Here</div>
+                            <form action="">
+                                <div id="result">Result Here</div>
+                                <button type="submit">ตรวจผล</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -48,7 +51,7 @@
     <!-- qr-scanner -->
     <script type="text/javascript">
         function onScanSuccess(qrCodeMessage) {
-            document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
+            document.getElementById('result').innerHTML = '<input readonly class="result" value='+qrCodeMessage+'>';
         }
         function onScanError(errorMessage) {
           //handle scan error
