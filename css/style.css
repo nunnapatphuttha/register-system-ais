@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -345,4 +346,37 @@ input[type="color"]:focus,
 }
 
 
+/* ------------------------------------------------------------------- */
+
+
+/* --------------------------QR-code------------------------------- */
+
+.new-account-link{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right:1rem ;
+}
+
+.new-account-link a{
+    text-decoration: none;
+    color: grey;
+}
+
+.logout{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left:0.5rem ;
+    margin-top: 1rem;
+}
+
+.logout a{
+    background-color: #000;
+    color: #b2d233;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
 /* ------------------------------------------------------------------- */
