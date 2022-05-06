@@ -349,7 +349,7 @@ input[type="color"]:focus,
 /* ------------------------------------------------------------------- */
 
 
-/* --------------------------QR-code------------------------------- */
+/* --------------------------New------------------------------- */
 
 .new-account-link{
     position: fixed;
@@ -379,4 +379,34 @@ input[type="color"]:focus,
     text-decoration: none;
     
 }
+/* ------------------------------------------------------------------- */
+
+/* --------------------------New------------------------------- */
+
+.wrapper-qr-scanner a{
+    text-decoration: none;
+    color: #010101;
+}
+
+.wrapper-qr-scanner a:hover{
+    text-decoration: none;
+    color: #b2d233;
+}
+
+.wrapper-qr-scanner button{
+    background-color: #010101;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrapper-qr-scanner button:hover{
+    background-color: #b2d233;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #010101;
+}
+
 /* ------------------------------------------------------------------- */
