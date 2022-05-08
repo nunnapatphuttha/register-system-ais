@@ -12,9 +12,9 @@
 </head>
 <body>
     <!-- New Account -->
-    <div class="new-account-link">
+    <!-- <div class="new-account-link">
         <a href="signup.html">New Account</a>
-    </div>
+    </div> -->
     <section class="wrapper-index">
         <div class="container">
             <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
@@ -35,9 +35,89 @@
                         
                     </div>
                 </form>
+                <a class="d-flex justify-content-end" style="text-decoration: none; color: grey;" href="signup.html">New Account</a>
             </div>
         </div>
     </section>
+
+
+    <!-- Tutorial -->
+    <button type="button" id="modal-t" class="new-account-link btn btn-dark fw-bolder" style="border-radius: 0%;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Tutorial
+    </button>
+
+        
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Tutorial <span class="text-primary">Step1</span> </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+            <img src="img/t1.png" class="img-fluid" alt="">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal2">Next</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Tutorial <span class="text-primary">Step2</span></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="img/t2.png" class="img-fluid" alt="">
+            </div>
+            <div class="modal-footer d-flex justify-content-between">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal">Back</button>
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal3">Next</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Tutorial <span class="text-primary">Step3</span></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="img/t3.png" class="img-fluid" alt="">
+            </div>
+            <div class="modal-footer d-flex justify-content-between">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal2">Back</button>
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal4">Next</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Tutorial <span class="text-primary">Step4</span></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="img/t4.png" class="img-fluid" alt="">
+            </div>
+            <div class="modal-footer d-flex justify-content-between">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal3">Back</button>
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal" data-bs-toggle="modal" >Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
 
     <!-- JS-bootstrap -->
     <script src="js/script.js"></script>

@@ -278,7 +278,7 @@ input[type="color"]:focus,
     font-weight: 500;
 }
 
-.wrapper-signup a{
+/* .wrapper-signup a{
     font-size: 1rem;
     color: #010101;
     font-weight: 500;
@@ -286,7 +286,7 @@ input[type="color"]:focus,
 
 .wrapper-signup a:hover{
     color: #b2d233;
-}
+} */
 
 .wrapper-signup p{
     font-size: 0.8rem;
