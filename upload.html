@@ -81,13 +81,13 @@
                     <div class="mb-3 row">                     
                         <div class="col-sm-12 text-start justify-content-center">
                             <div class="mb-3 mt-3">                 
-                                <label for="formFile" class="form-label" style="font-size: 0.8rem;">อัพโหลดรูปภาพของท่าน </label>                           
+                                <label for="formFile" class="form-label" style="font-size: 0.8rem;">อัพโหลดรูปภาพของท่าน ตัวอย่าง <a type="button" id="myInput" class="fw-bolder mt-2" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#myModal0">คลิก</a> </label>                           
                                 <input class="form-control col-6" type="file" id="formFile" aria-label="file example" required>                              
                                
-                                <label for="formFile" class="form-label mt-3" style="font-size: 0.8rem;">อัพโหลดผลตรวจ ATK</label>   
+                                <label for="formFile" class="form-label mt-3" style="font-size: 0.8rem;">อัพโหลดผลตรวจ ATK ตัวอย่าง <a type="button" id="myInput" class="fw-bolder mt-2" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#myModal1">คลิก</a> </label>   
                                 <input class="form-control" type="file" id="formFile" aria-label="file example" required>
                               
-                                <label for="formFile" class="form-label mt-3" style="font-size: 0.8rem;">อัพโหลดผลการฉีดวัคซีน</label>
+                                <label for="formFile" class="form-label mt-3" style="font-size: 0.8rem;">อัพโหลดผลการฉีดวัคซีน ตัวอย่าง <a type="button" id="myInput" class="fw-bolder mt-2" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#myModal2">คลิก</a></label>
                                 <input class="form-control" type="file" id="formFile" aria-label="file example" required>
                                 
                                 <div class=" text-center">
@@ -102,7 +102,63 @@
                 </form>
             </div>
         </div>
-        
+    </section>
+        <!-- photo -->
+        <div id="myModal0" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title ">ตัวอย่างภาพถ่ายเซลฟี่</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                   <img src="img/photo.svg" alt="" class="img-fluid">
+                   <span class="text-danger fs-2 text-center fw-bold">*ห้ามใช้ภาพการ์ตูน</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">ยืนยัน</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+                <!-- ATK -->
+                <div id="myModal1" class="modal fade" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title ">ตัวอย่างภาพผลตรวจ ATK</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                           <img src="img/atk.svg" alt="" class="img-fluid">
+                           <span class="text-danger fs-5 text-center fw-bold">รูปถ่ายผลตรวจ ATK (ไม่เกิน 72 ชั่วโมง) พร้อมบัตรประจำตัวประชาชน</span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">ยืนยัน</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- vaccine -->
+                 <div id="myModal2" class="modal fade" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title ">ตัวอย่างภาพหลักฐานการฉีดวัคซีนโควิด19</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                           <img src="img/vaccine.svg" alt="" class="img-fluid">
+                           <span class="text-danger fs-6 text-center fw-bold">สามารถบันทึกหน้าจอเอกสาร(ให้เห็นข้อมูลส่วนตัวและคิวอาร์โค้ด) ได้ที่แอปพลิเคชันหมอพร้อม</span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">ยืนยัน</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
     
         
      <!-- JS-bootstrap -->

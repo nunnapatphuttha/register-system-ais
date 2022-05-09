@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 
 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Mitr', sans-serif;
+    /* font-family: 'Mitr', sans-serif; */
     
 }
 
@@ -19,6 +20,7 @@ section{
     height: 100vh;
     background-color: #b2d233;
 }
+
 
 /* ------------------------index-page------------------------ */
 
@@ -39,8 +41,11 @@ section{
 }
 
 .wrapper-index a:hover{
-    color: #b2d233;
+    font-size: 1rem;
+    color: #010101;
+    font-weight: 500;
 }
+
 
 .wrapper-index p{
     font-size: 0.8rem;
